@@ -3,11 +3,9 @@ import numpy as np
 a = np.array((
             [1,2,3],
             [4,5,6]
-            ))
+))
 
 print('matrix dengan ukuran:', a.shape)
-print(a)
-
 #transpose matrix
 print('transpose matrix dari a:')
 print(a.transpose())
